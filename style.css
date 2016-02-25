@@ -1,113 +1,121 @@
 html, body {
-	font-family: 'Lato', sans-serif; 
-	font-weight: 300; 
-} 
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
 
 body {
 	background:url("http://www.designlovefest.com/wp-content/uploads/downloads/2014/12/all.jpg") no-repeat fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif; 
-	font-weight: 400; 
-} 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
 
-/*HEADER*/ 
+/*HEADER*/
 .header {
-	min-height: 90px; 
+	min-height: 90px;
 	width: 85%;
-} 
-
-.header img {
-	float: left; 
-	margin-left: 40px;
-} 
-
-.search {
-	float:right; 
-	margin: 25px 0 0 0; 
-	padding-top: 15px;
-} 
-
-.search-form input {
-	background: transparent; 
-	border: 0px; 
-	border-bottom: 2px solid #f06a2f; 
-	color: #fff; 
-	height: 30px; 
-	width: 240px; 
-
-} 
-
-.search-form input:hover, .search-form input:focus {
-	border-bottom: 2px solid #f5b18f; 
-	outline: 0px; 
-} 
-
-.search-btn {
-	background: transparent; 
-	border: 2px solid #f06a2f; 
-	color: #f5b18f; 
-	height: 30px; 
-	margin: 0 0 0 10px; 
-	padding: 0 10px; 
-} 
+}
 
 .header img {
 	float: left;
-	padding-left: 30px;
+	margin-left: 40px;
+}
+
+.search {
+	float:right;
+	margin: 25px 0 0 0;
+	padding-top: 15px;
+}
+
+.search-form input {
+	background: transparent;
+	border: 0px;
+	border-bottom: 2px solid #f06a2f;
+	color: #000;
+	height: 30px;
+	width: 210px;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight:400;
+}
+
+.search-form input:hover, .search-form input:focus {
+	border-bottom: 2px solid #f5b18f;
+	outline: 0px;
+}
+
+.search-btn {
+	background-color: #fff;
+	border: 2px solid #f06a2f;
+	color: #f06a2f;
+	height: 30px;
+	margin: 0 0 0 10px;
+	padding: 0 10px;
+}
+
+.header img {
+	float: left;
+	padding-left: 40px;
 	padding-top: 10px;
 }
 
 #account {
-	margin-left: 50px;
+	background-color: #fff;
+	border: 2px solid #f06a2f;
+	color: #f06a2f;
+	margin-left: 30px;
+	margin-bottom: 5px;
 }
 
-/*MENU*/ 
+
+/*MENU*/
 .menu {
-	background: #f06a2f; 
-	min-height:20px; 
+	background: #f06a2f;
+	min-height:20px;
 	height: 30px;
 	width: 85%;
 	margin: auto;
-} 
+}
 
 .menu ul.nav {
-	list-style: none; 
-	margin: 0; 
-} 
+	list-style: none;
+	margin: 0;
+}
 
 .menu ul.nav li {
-	display: inline-block; 
+	display: inline-block;
 	width: 20%;
-	height:30px; 
-	margin: 0; 
-	padding-top: 5px; 
-	text-align: center; 
-} 
+	height:30px;
+	margin: 0;
+	padding-top: 5px;
+	text-align: center;
+}
 
 .menu ul.nav li:hover {
-	background: #f5b18f; 
-} 
+	background: #f5b18f;
+}
 
 .menu ul.nav li a {
-	color: #fff; 
-	margin: 0; 
-	padding: 0; 
-} 
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
 
 .menu ul.nav li a:hover {
-	background: transparent; 
-} 
+	background: transparent;
+}
 
-/*MAIN*/ 
+/*MAIN*/
 .main {
 	margin: auto;
-	background: url("https://s-media-cache-ak0.pinimg.com/originals/7c/9c/bf/7c9cbf2f2ac37057c295a290cd84762e.jpg") no-repeat center; 
-	background-size: cover; 
-	height: 500px; 
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/7c/9c/bf/7c9cbf2f2ac37057c295a290cd84762e.jpg") no-repeat center;
+	background-size: cover;
+	height: 500px;
 	width: 85%;
-} 
+}
 
 #main2 {
 	background: url("http://d3ugpfptm7iph0.cloudfront.net/cdn/farfuture/qlYNvSZbprpHgnqNGgpKHIXQr-vk6lTrPxs8ZYKNzOs/mtime:1401899500/sites/default/files/styles/hero/public/us_files/1010616_2.jpg?itok=Hhd35uxb");
@@ -118,28 +126,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main .container .col-md-5 {
-	padding:40px; 
-} 
+	padding:40px;
+}
 
 .main .container .col-md-5 p.date {
-	color: #000; 
-	font-size: 16px; 
-} 
+	color: #000;
+	font-size: 16px;
+}
 
 .main .container .col-md-5 h2 {
-	color: #000; 
-	font-size: 60px; 
-	margin: 20px 0; 
-} 
+	color: #000;
+	font-size: 60px;
+	margin: 20px 0;
+}
 
 .main .container .col-md-5 h2 span {
-	border-bottom: 5px solid #f06a2f; 
-} 
+	border-bottom: 5px solid #f06a2f;
+}
 
 .main .container .col-md-5 p {
-	color: #000; 
-	font-size: 20px; 
-} 
+	color: #000;
+	font-size: 20px;
+}
 
 #main2 p, #main3 p{
 	color: #fff;
@@ -151,32 +159,31 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/*FOOTER*/ 
+/*FOOTER*/
 .footer {
 	padding:40px 80px;
-	width: 85%; 
-} 
+	width: 85%;
+}
 
 .footer ul {
-	float: left; 
-	list-style: none; 
-	margin: 0; 
-	padding: 0; 
-} 
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 
 .footer ul li {
-	color: #000; 
-	display: inline; 
-	margin:0 40px 0 0; 
-} 
+	color: #000;
+	display: inline;
+	margin:0 40px 0 0;
+}
 
 .footer p {
-	color:#000; 
-	float: right; 
+	color:#000;
+	float: right;
 	padding-right: 90px;
-} 
+}
 
-.col-md-12 img { 
-	width: 100%; 
-} 
-
+.col-md-12 img {
+	width: 100%;
+}
