@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: transparent;
 	border: 0px;
 	border-bottom: 2px solid #f06a2f;
-	color: #000;
+	color: #f06a2f;
 	height: 30px;
 	width: 210px;
 	font-family: 'Lato', sans-serif;
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*FOOTER*/
 .footer .container{
-	padding-top: 40px;
+	padding-top: 30px;
 	padding-bottom: 40px;
 	width: 84%;
 }
@@ -172,8 +172,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer ul li {
+	display: inline-block;
 	color: #000;
-	display: inline;
+	margin:0 40px 0 0; 
 }
 
 .footer p {
