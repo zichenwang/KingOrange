@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: transparent;
 	border: 0px;
 	border-bottom: 2px solid #f06a2f;
-	color: #f06a2f;
+	color: #000;
 	height: 30px;
 	width: 210px;
 	font-family: 'Lato', sans-serif;
@@ -108,58 +108,98 @@ h1, h2, h3, h4, h5, h6 {
 
 /*MAIN*/
 .main {
+	margin: 20px auto;
+}
+
+.main .container {
+	border: 1px solid #e1e3e3;
 	margin: auto;
-	background: url("https://s-media-cache-ak0.pinimg.com/originals/7c/9c/bf/7c9cbf2f2ac37057c295a290cd84762e.jpg") no-repeat center;
-	background-size: cover;
-	height: 500px;
 	width: 85%;
 }
 
-#main2 {
-	background: url("http://animal-picture.com/wp-content/uploads/2014/12/Albino-animals-7.jpg");
+
+#left-blk {
+	position: relative;
+	float: left;
+	width: 20%;
+	display: inline-block;
 }
 
-#main3 {
-	background: url("http://d3ugpfptm7iph0.cloudfront.net/cdn/farfuture/goE2FIVGJ7EpaWJSk0PKnoXK-pR7bMje2cCGZ4B6Nb8/mtime:1439576934/sites/default/files/styles/hero/public/us_files/1016105.jpg?itok=4K9T5rKH");
+#right-blk {
+	position: relative;
+	float: right;
+	width: 75%;
+	display: inline-block;
 }
 
-.main .container .col-md-5 {
-	padding:40px;
-}
-
-.main .container .col-md-5 p.date {
-	color: #000;
-	font-size: 16px;
-}
-
-.main .container .col-md-5 h2 {
-	color: #000;
-	font-size: 60px;
-	margin: 20px 0;
-}
-
-.main .container .col-md-5 h2 span {
-	border-bottom: 5px solid #f06a2f;
-}
-
-.main .container .col-md-5 p {
-	color: #000;
+#user {
+	padding-top: 20px;
+	text-align: center;
 	font-size: 20px;
+	height: 100px;
 }
 
-#main2 p, #main3 p{
-	color: #fff;
+#name {
+	font-size: 30px;
 }
 
-#main2 h2, #main3 h2{
-	color: #fff;
+.list-group {
+	text-align: center;
 }
+
+.list-group .active {
+	background: #f06a2f;
+}
+
+.list-group .active:hover {
+	background: #f5b18f;
+}
+
+.main .content {
+	margin: 20px 0px;
+	padding: 1em;
+	border: 1px solid #e3e1e1;
+}
+
+.main .organization {
+	margin-left: 10px;
+	clear: both;
+}
+
+.main h4 {
+	float: left;
+}
+
+.main .date {
+	float: right;
+	padding: 10px;
+}
+
+.main ul {
+	list-style: none;
+}
+
+.main ul li {
+	background: #f06a2f;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	margin: 0 10%;
+
+}
+
+.main ul li:hover {
+	background: #f5b18f;
+}
+
 
 
 
 /*FOOTER*/
 .footer .container{
-	padding-top: 30px;
+	clear: both;
+	padding-top: 40px;
 	padding-bottom: 40px;
 	width: 84%;
 }
@@ -172,9 +212,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer ul li {
-	display: inline-block;
 	color: #000;
-	margin:0 40px 0 0; 
+	display: inline;
+	margin: 0 40px 0 0;
 }
 
 .footer p {
