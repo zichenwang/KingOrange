@@ -116,22 +116,21 @@ h1, h2, h3, h4, h5, h6 {
 	width: 89%;
 }
 
-.main .container .col-md-9 p {
+.main .container .col-md-8 {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.main .container .col-md-8 p {
 	text-align: justify;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-	margin-left: 0px;
 }
 
-.main .container .col-md-9 h1 {
+.main .container .col-md-8 h1 {
 	text-align: center;
 }
 
-.main .container .col-md-9 p {
-	text-align: justify;
-	font-family: 'Lato', sans-serif;
-	font-size: 18px;
-}
 
 .donate-btn {
 	background-color: #f06a2f;
