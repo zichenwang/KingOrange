@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 80%;
 	margin: auto;
 	padding: 0;
-	border-bottom: 1px dashed #9AE3C6;
+	border-bottom: 1.5px dashed #9AE3C6;
 }
 
 .search_bar div.container {
@@ -138,11 +138,28 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0 15px;
 }
 
-.search_bar ul.nav li.all a {
-	background-color: #E3DAD2;
+/*MAIN*/
+.result_container .result {
+	width: 73%;
+	margin: auto;
+	padding: 5px 50px 0 0;			
 }
 
-/*MAIN*/
+.result_container .result div {
+	padding: 5px 10px 15px 10px;
+	border-bottom: 1px dashed #9AE3C6;
+}
+
+.result_container .result h2 a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #4591D4;
+}
+
+.result_container .result p {
+	font-size: 16px;
+}
 
 
 
