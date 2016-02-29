@@ -152,17 +152,22 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*FOOTER*/
+.footer {
+	margin-top: 10px;
+	border-top: 1px solid #e1e3e3;
+}
+
 .footer .container{
-	padding-top: 40px;
-	padding-bottom: 40px;
+	margin-top: 20px;
+	padding-bottom: 40px 0;
 	width: 84%;
+	text-align: 100%;
 }
 
 .footer ul {
 	float: left;
 	list-style: none;
 	margin: 0;
-	padding: 0;
 }
 
 .footer ul li {
