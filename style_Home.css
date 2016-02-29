@@ -109,18 +109,20 @@ h1, h2, h3, h4, h5, h6 {
 /*MAIN*/
 .main {
 	margin: auto;
-	background: url("https://s-media-cache-ak0.pinimg.com/originals/7c/9c/bf/7c9cbf2f2ac37057c295a290cd84762e.jpg") no-repeat center;
+	background: url("birds_migration.jpg");
 	background-size: cover;
 	height: 500px;
 	width: 85%;
 }
 
 #main2 {
-	background: url("http://animal-picture.com/wp-content/uploads/2014/12/Albino-animals-7.jpg");
+	background: url("Cat-Bird-Murderer.jpg");
+	background-size: cover;
 }
 
 #main3 {
-	background: url("http://d3ugpfptm7iph0.cloudfront.net/cdn/farfuture/goE2FIVGJ7EpaWJSk0PKnoXK-pR7bMje2cCGZ4B6Nb8/mtime:1439576934/sites/default/files/styles/hero/public/us_files/1016105.jpg?itok=4K9T5rKH");
+	background: url("world_animal_ protection.jpg");
+	background-size: cover;
 }
 
 .main .container .col-md-5 {
