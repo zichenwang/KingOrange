@@ -190,7 +190,39 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+/*MODAL*/
+.modal-body ul li {
+	list-style: none;
+	display: inline-block;
+	margin: auto;
+	margin-top: 20px;
+}
 
+.modal-footer {
+	margin: auto;
+}
+
+.modal-footer .donation {
+	float: left;
+	margin: 0 37px;
+	padding: 5px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	border: 1px;
+	background: #f06a2f;
+}
+
+.modal-footer .modal-title{
+	float: left;
+}
+
+
+.modal-footer .modal-body {
+	font-size: 20px;
+	float: left;
+}
 
 /*FOOTER*/
 .footer .container{
