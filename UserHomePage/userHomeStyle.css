@@ -184,13 +184,31 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	text-align: center;
 	display: inline-block;
+	margin: 0 23%;
+	width: 40%;
+
+}
+
+.main .completed ul li {
 	width: 25%;
 	margin: 0 10%;
-
 }
 
 .main ul li:hover {
 	background: #f5b18f;
+}
+
+.main ul li:active {
+	background: #f5b18f;
+}
+
+.main .buttons a {
+	list-style: none;
+	color: #fff;
+}
+
+.main .completed {
+	background: #f0f0f0;
 }
 
 
