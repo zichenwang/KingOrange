@@ -120,6 +120,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .main .container .normal {
 	padding:auto;
+	text-align: justify;
+	color: #000;
+	font-size: 18px;
+	width: 70%;
+	margin: auto;
 }
 
 .main .container .normal p.date {
@@ -132,14 +137,10 @@ h1, h2, h3, h4, h5, h6 {
 .main .container .normal h2 {
 	color: #000;
 	font-size: 60px;
-	margin: 20px 0;
 	list-style: none;
 }
 
-.main .container .normal p {
-	color: #000;
-	font-size: 18px;
-}
+
 .main .container .normal .date .img {
     margin: 20px 20px 20px 20px;
     width: 100%;
