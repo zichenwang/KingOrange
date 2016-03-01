@@ -141,8 +141,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.main .container .normal .img {
-    margin: auto;
+.main .container .normal .date .img {
+    margin: 20px 20px 20px 20px;
+    width: 100%;
+	height:auto;
+	padding-bottom: 50px;
 }
 
 
